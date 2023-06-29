@@ -2,7 +2,7 @@ import Header from './components/header/index'
 
 function App() {
   return (
-    <main className="bg-[#AED1E6]">
+    <main className="bg-[#BBDDF2]">
       <Header/>
     </main>
   )

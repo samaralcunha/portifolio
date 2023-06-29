@@ -1,15 +1,13 @@
-import styles from './header.module.css'
-
-function Header() {
+export default function Header() {
     return (
-        <header className="flex items-center p-4 py-6 justify-between gap-8 bg-black/10">
+        <header className="flex items-center p-4 py-6 justify-between gap-8 bg-black/10 font-roboto font-regular">
             <hr className="h-2 w-28 bg-[#CFE8EF] rounded" />
 
-            
-                <Title/>
+            <Title />
 
             <hr className="h-2 w-full bg-[#CFE8EF] rounded" />
-            <nav className="flex gap-8 text-lg text-[#0077A4]">  
+
+            <nav className="flex gap-8 text-lg text-[#025A7B]">
                 <a className="hover:underline hover:text-[#1F4268]">Home</a>
                 <a className="hover:underline hover:text-[#1F4268]">Sobre</a>
                 <a className="hover:underline hover:text-[#1F4268]">Linguagens</a>
@@ -20,9 +18,6 @@ function Header() {
         </header>
     )
 }
-
-export default Header 
-
 
 function Title() {
     return (
