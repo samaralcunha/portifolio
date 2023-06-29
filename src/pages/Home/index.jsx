@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 export default function Home() {
     return (
         <>
-            <main className="bg-[#BBDDF2] h-full">
+            <main className="bg-[#BBDDF2] h-screen grid grid-rows-[auto_1fr_auto]">
                 <Header />
-                <section className='flex justify-around font-roboto py-10'>
+                <section className='flex justify-around items-center font-roboto py-10'>
                     <div className='flex flex-col'>
                         <p className='text-xs font-semibold'>Olá meu nome é</p>
                         <h1 className='text-2xl my-4'>Samara Luiza <br /> Cunha Silva</h1>
