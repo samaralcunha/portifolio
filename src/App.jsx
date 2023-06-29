@@ -1,11 +1,8 @@
-import Header from './components/header/index'
+import AppRoutes from './routes'
 
-function App() {
+export default function App() {
   return (
-    <main className="bg-[#BBDDF2]">
-      <Header/>
-    </main>
+    <AppRoutes />
   )
 }
 
-export default App
