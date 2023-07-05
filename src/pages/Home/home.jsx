@@ -1,6 +1,6 @@
-import Footer from '../../components/footer'
-import Header from '../../components/header'
-import Container from '../../components/container'
+import Footer from '../../components/footer/footer'
+import Header from '../../components/header/header'
+import Container from '../../components/container/container'
 import { Link } from 'react-router-dom'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
             <main className="bg-[#BBDDF2] h-screen grid grid-rows-[auto_1fr_auto]">
                 <Header />
                 <Container>
-                    <section className='flex justify-around items-center font-roboto py-10'>
+                    <section className='flex justify-around w-full py-10'>
                         <div className='flex flex-col'>
                             <p className='text-sm font-semibold'>Olá meu nome é</p>
                             <h1 className='text-3xl my-4'>Samara Luiza <br /> Cunha Silva</h1>
