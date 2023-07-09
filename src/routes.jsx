@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import Linguagens from './pages/Linguagens'
 import Projetos from './pages/Projetos'
+import Contatos from './pages/Contatos'
 
 export default function AppRoutes() {
     return (
@@ -10,10 +11,10 @@ export default function AppRoutes() {
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/sobre' element={<Sobre />}></Route>
-                <Route path='/linguagens' element={<Linguagens/>}></Route>
-                 <Route path='/projetos' element={<Projetos/>}></Route>
-                {/* <Route path='/contato' element={<Contato/>}></Route>
-                <Route path='*' element={<Page404/>}></Route>  */}
+                <Route path='/linguagens' element={<Linguagens />}></Route>
+                <Route path='/projetos' element={<Projetos />}></Route>
+                <Route path='/contatos' element={<Contatos />}></Route>
+                {/* <Route path='*' element={<Page404/>}></Route>  */}
             </Routes>
         </BrowserRouter>
     )
